@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seletor de cores</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+  <div class="content">
+    <div class="row">
+      <p>(R) Vermelho:</p>
+      <input id="r" type="range" min="0" max="255">
+      <input id="r-text" type="text" disabled>
+    </div>
+    <div class="row">
+      <p>(G) Verde:</p>
+      <input id="g" type="range" min="0" max="255">
+      <input id="g-text" type="text" disabled>
+    </div>
+    <div class="row">
+      <p>(B) Azul:</p>
+      <input id="b" type="range" min="0" max="255">
+      <input id="b-text" type="text" disabled>
+    </div>
+  </div>
+
+  <div id="color">
+    <div id="contentColor"></div>
+  </div>
+
+  <script src="./js/scirpt.js"></script>
+</body>
+</html>

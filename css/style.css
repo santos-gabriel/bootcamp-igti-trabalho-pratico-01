@@ -1,0 +1,43 @@
+
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+#color{
+  position: relative;
+  width: 120px;
+  height: 120px; 
+  top: 50px;
+  left: 60px;
+}
+
+#color #contentColor{
+  position: absolute;
+  height: 120px;
+  width: 120px;
+}
+
+#r-text,
+#g-text,
+#b-text{
+  background: #9e999985;
+  width: 50px;
+  border-radius: 5%;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.content{
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.content .row{
+  margin: 20px 10px 20px 10px;
+}
+
+
